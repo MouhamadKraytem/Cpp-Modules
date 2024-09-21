@@ -6,7 +6,7 @@
 /*   By: mkraytem <mkraytem@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/09/20 12:07:46 by mkraytem          #+#    #+#             */
-/*   Updated: 2024/09/21 10:35:27 by mkraytem         ###   ########.fr       */
+/*   Updated: 2024/09/21 14:12:27 by mkraytem         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -67,7 +67,7 @@ void Contact::displayContact(){
 	std::cout << "Nick name : " << this->nick_name << std::endl;
 	std::cout << "Phone number : " << this->phone_number << std::endl;
 	std::cout << "Darkest Secret : " << this->darkest_secret << std::endl;
-	std::cout << std::endl;
+	// std::cout << std::endl;
 };
 Contact::~Contact()
 {

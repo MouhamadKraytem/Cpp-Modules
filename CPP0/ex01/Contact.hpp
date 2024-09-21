@@ -6,7 +6,7 @@
 /*   By: mkraytem <mkraytem@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/09/21 09:10:39 by mkraytem          #+#    #+#             */
-/*   Updated: 2024/09/21 10:35:15 by mkraytem         ###   ########.fr       */
+/*   Updated: 2024/09/21 12:12:38 by mkraytem         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -29,19 +29,19 @@ public:
 	Contact(std::string fn, std::string ln, std::string nn, std::string pn, std::string ds);
 	~Contact();
 
-	std::string Contact::get_first_name();
-	std::string Contact::get_last_name();
-	std::string Contact::get_nick_name();
-	std::string Contact::get_darkest_secret();
-	std::string Contact::get_phone_number();
+	std::string get_first_name();
+	std::string get_last_name();
+	std::string get_nick_name();
+	std::string get_darkest_secret();
+	std::string get_phone_number();
 
-	void Contact::set_first_name(std::string str);
-	void Contact::set_last_name(std::string str);
-	void Contact::set_nick_name(std::string str);
-	void Contact::set_darkest_secret(std::string str);
-	void Contact::set_phone_number(std::string str);
+	void set_first_name(std::string str);
+	void set_last_name(std::string str);
+	void set_nick_name(std::string str);
+	void set_darkest_secret(std::string str);
+	void set_phone_number(std::string str);
 
-	void Contact::displayContact();
+	void displayContact();
 };
 
 #endif
