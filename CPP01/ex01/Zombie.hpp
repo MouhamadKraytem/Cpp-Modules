@@ -6,10 +6,12 @@
 /*   By: mkraytem <mkraytem@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/09/21 22:07:03 by mkraytem          #+#    #+#             */
-/*   Updated: 2024/09/21 22:16:12 by mkraytem         ###   ########.fr       */
+/*   Updated: 2024/09/21 23:03:15 by mkraytem         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
+#ifndef ZOMBIE_H
+#define ZOMBIE_H
 #include <iostream>
 
 class Zombie
@@ -25,3 +27,5 @@ public:
 };
 
 Zombie *zombieHorde(int N, std::string name);
+
+#endif
