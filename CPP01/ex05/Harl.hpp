@@ -6,10 +6,12 @@
 /*   By: mkraytem <mkraytem@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/09/24 10:22:24 by mkraytem          #+#    #+#             */
-/*   Updated: 2024/09/24 10:32:32 by mkraytem         ###   ########.fr       */
+/*   Updated: 2024/09/24 10:44:31 by mkraytem         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
+#ifndef HARL_H
+#define HARL_H
 #include <iostream>
 
 class Harl
@@ -26,3 +28,4 @@ public:
 	void complain(std::string level);
 };
 
+#endif
